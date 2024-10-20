@@ -1,6 +1,18 @@
-# Monorepo Template
+# LiKo-framework
+Creates static html and css website from JSON using react render.
 
-A template to create a monorepo SST ❍ Ion project.
+
+## Technologies
+- Typescript
+- SST
+- Node.js
+- React (renderToStaticMarkup)
+- SCSS
+
+JSON is used as data input.
+Then a website with multiple pages is rendered.
+HTML and CSS files are then uploaded to S3.
+
 
 ## Get started
 
@@ -16,7 +28,7 @@ A template to create a monorepo SST ❍ Ion project.
 3. Rename the files in the project to the name of your app. 
 
    ```bash
-   npx replace-in-file '/monorepo-template/g' MY_APP **/*.* --verbose
+   npx replace-in-file '/websiteBuilderV2/g' MY_APP **/*.* --verbose
    ```
 
 4. Deploy!
